@@ -1,0 +1,29 @@
+.square{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 3em;
+}
+
+.square:hover{
+box-shadow: 0px 0px 10px 3px cyan;
+}
+
+.square-x{
+    background-color: rgb(180, 226, 43);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.square-o{
+     background-color: rgb(29, 55, 201);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
