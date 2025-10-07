@@ -1,4 +1,4 @@
-.square{
+.square {
     background-color: blueviolet;
     width: 100px;
     height: 100px;
@@ -10,20 +10,53 @@
     font-size: 3em;
 }
 
-.square:hover{
-box-shadow: 0px 0px 10px 3px cyan;
+.square:hover {
+    box-shadow: 0px 0px 10px 3px cyan;
 }
 
-.square-x{
+.square-x {
     background-color: rgb(180, 226, 43);
     width: 100px;
     height: 100px;
     border-radius: 10px;
 }
 
-.square-o{
-     background-color: rgb(29, 55, 201);
+.square-o {
+    background-color: rgb(29, 55, 201);
     width: 100px;
     height: 100px;
     border-radius: 10px;
+}
+
+.winner{
+    margin-bottom: 20px;
+}
+
+.status-winner {
+    margin-bottom: 20px;
+    color: rgb(180, 226, 43);
+    border: rgb(180, 226, 43) solid 1px;
+    padding: 5px 30px;
+    border-radius: 8px;
+    animation: blink 1s infinite;
+}
+
+.pontuacao{
+    margin-bottom: 20px;
+    color:rgb(180, 226, 43);
+    font-size: 1.5em;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

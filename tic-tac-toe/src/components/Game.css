@@ -16,3 +16,30 @@
     flex-direction: row;
     gap: 10px;
 }
+
+.title{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.status{
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.reset{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    cursor: pointer;
+    background-color: #6c5ce7;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.reset:hover{
+    box-shadow: 0 0 10px 10px cyan;
+}
